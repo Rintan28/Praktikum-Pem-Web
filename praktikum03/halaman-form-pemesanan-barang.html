@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Form Pemesanan Barang</title>
+</head>
+<body>
+    <br><br>
+    <fieldset>
+        <table style="width: 1300px">
+            <tbody>
+                <tr>
+                    <td>Home&nbsp;&nbsp;|</td>
+                    <td>Generate Link&nbsp;&nbsp;|</td>
+                    <td>Transaction History&nbsp;&nbsp;|</td>
+                    <td>Policy&nbsp;&nbsp;|</td>
+                    <td>Logout&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+    </fieldset>
+    <table style="float: left">
+        <tbody>
+            <tr>
+                <td><img src="https://3.bp.blogspot.com/-RDF6nEDFIsM/Vy7L_Mq7NNI/AAAAAAAAAyU/r2BltiOiPYwcizDK0zYQbTi_QC1-GgZigCLcB/s1600/PERSEGI%2B2.jpg" alt="persegi panjang diagonal" style="width: 200px"></td>
+            </tr>
+            <tr>
+                <td><label for="myfile">
+                    <form>
+                        <input type="file" id="myfile" name="Upload Picture">
+                    </form>
+                </label></td>
+            </tr>
+        </tbody>
+    </table>
+    <p>
+    <div style="float: left; margin-left: 50px">
+    <form>
+        <table style="width: 1000px; height: 400px">
+            <tbody>
+                <tr>
+                    <td><label for="judul">Tittle Here</label></td>
+                    <td> : <input type="text" id="judul"></td>
+                </tr>
+                <tr>
+                    <td><label for="deskripsi">Description</label></td>
+                    <td> : <textarea id="deskripsi"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="noakun">Account Number</label></td>
+                    <td> : <input type="number" id="noakun"></td>
+                </tr>
+                <tr>
+                    <td><label for="bank">Bank</label></td>
+                    <td> : <select id="bank" style="width: 100px">
+                            <option>Pilih Bank</option>
+                            <option>BRI</option>
+                            <option>BNI</option>
+                            <option>BTN</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label for="pemegang">Account Holder</label></td>
+                    <td> : <input type="text" id="pemegang"></td>
+                </tr>
+                <tr>
+                    <td rowspan="1"><label for="transaksi">Transaction</label></td>
+                    <td> : <input type="number" id="transaksi"; style="width: 30px"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>*if the transaction is for 3 person, choose 3 from the drop-down list
+                        <ul>
+                            <li style="list-style: none">
+                                <input type="checkbox" id="mobile">
+                                <label for="mobile">Send to Mobile Phone</label>
+                            </li>
+                            <li style="list-style: none">
+                                <input type="checkbox" id="email">
+                                <label for="email">Send to Email</label>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="sendmobile">Send to Mobile Phone</label></td>
+                    <td> : <input type="number" id="sendmobile"></td>
+                </tr>
+                <tr>
+                    <td><label for="sendemail">Send to Email</label></td>
+                    <td> : <input type="email" id="sendemail"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    </div>
+    </p>
+    <form>
+        <p align="center">
+            <input type="submit" value="Generate Link"; style="background-color: green; color:white">
+        </p>
+    </form>
+</body>
+</html>
