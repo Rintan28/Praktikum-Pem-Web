@@ -1,0 +1,42 @@
+body {
+    background-color: beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    margin: auto;
+}
+blockquote {
+    text-align: center;
+    background-color:#fdfdb3;
+    padding-bottom: 2px;
+}
+#soekarno {
+    font-style: italic;
+}
+#header {
+    background-color: #deb887;
+    padding-bottom: 2px;
+}
+div ul {
+    text-align: center;
+    list-style-type: none;
+}
+.profildkk {
+    text-align: center;
+}
+.fp::first-letter {
+    font-size: 50px;
+    color: blue;
+}
+.namalatin {
+    font-style: italic;
+}
+.fotoburung {
+    text-align: center;
+}
+.fotoburung img {
+    width: 20%;
+}
