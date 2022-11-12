@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    background-color: beige;
+}
+div {
+    margin-top: 20px;
+    margin-left: 90px;
+}
+img {
+    width: 150px;
+}
+.box1 {
+    background-color: yellow;
+    width: 200px;
+    height: 197px;
+    border: solid black;
+    margin-right: 70px;
+    margin-left: 30px;
+}
+.box2 {
+    background-color: orangered;
+    width: 200px;
+    height: 197px;
+    border: solid black;
+    margin-right: 70px;
+}
+.box3 {
+    background-color: aquamarine;
+    width: 200px;
+    height: 192px;
+    border: solid black;
+    margin-right: 70px;
+}
+.box4 {
+    background-color: deepskyblue;
+    width: 200px;
+    height: 187px;
+    border: solid black;
+    margin-right: 70px;
+}
