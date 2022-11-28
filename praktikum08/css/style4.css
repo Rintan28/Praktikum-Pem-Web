@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+body {
+    display: flex;
+    text-align: center;
+}
+nav {
+    background-color: pink;
+    height: 100vh;
+    width: 40%;
+    line-height: 100vh;
+}
+header {
+    background-color: gold;
+    height: 15vh;
+    width: 1230px;
+    line-height: 15vh;
+}
+article {
+    flex: 2;
+}
+aside {
+    background-color: aquamarine;
+    flex: 1;
+}
+footer {
+    background-color: gold;
+    height: 15vh;
+    line-height: 15vh;
+}
+.div {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    display: flex;
+    height: 70vh;
+    line-height: 70vh;
+}
