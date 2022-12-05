@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perhitungan</title>
+</head>
+<body>
+    <h2>Menghitung Jumlah Dua Bilangan</h2>
+    <input type="text" id="angka1"  onChange="sum();"/>
+    <br> + <br>
+    <input type="text" id="angka2"  onChange="sum();"/>
+    <br> = <br>
+    <input type="text" id="hasil"/>
+    <button type="button" onclick="sum()">Hitung</button>
+
+
+   <script>
+   function sum(){
+       let angka_1 = document.getElementById("angka1").value;
+       let angka_2 = document.getElementById("angka2").value;
+       
+       let hasil = parseInt(angka_1) + parseInt(angka_2);
+       if (!isNaN(hasil)) {
+          document.getElementById("hasil").value = hasil;
+       }
+   }
+   </script>
+</body>
+</html>
